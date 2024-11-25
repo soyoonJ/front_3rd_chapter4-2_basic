@@ -56,15 +56,29 @@
 
 ### [접근성 최적화]
 **1. 이미지 대체텍스트 추가**    
-- img 태그에 alt 추가 후 이에 맞는 대체텍스트를 작성하여 접근성을 높임
+- img 태그에 alt 추가 후 이에 맞는 대체텍스트를 작성하여 접근성을 높였습니다.
 
+  | 구분 | 적용 전 | 적용 후 |
+  |----------|--------|--------|
+  | 대체텍스트 추가 | 82% | 94%~96% |
 
 ## c. 개선 후 향상된 지표
-|PageSpeed|[Git Issue (Lighthouse)](https://github.com/soyoonJ/front_3rd_chapter4-2_basic/issues/1)|
+최종적으로 성능은 99%~100%로 개선되었고, 접근성 또한 94%~96%로 개선되었습니다.
+
+| 구분 | 개선 전 | 개선 후 |
+|----------|--------|------|
+| 성능 | 47%~72% | 99%~100% |
+| 접근성 | 82% | 94%~96% |
+
+|PageSpeed|[Git Issue (Lighthouse)](https://github.com/kyh196201/front_3rd_chapter4-2_basic/issues/16)|
 |---|---|
-|<img width="949" alt="alt 추가" src="https://github.com/user-attachments/assets/d4e1c04b-2304-46ae-9e63-413539a998cc">|<img width="824" alt="git issue 최종" src="https://github.com/user-attachments/assets/c9adb223-0b07-4bb0-8f92-2f4ba44662f9">|
+|<img width="885" alt="pagespeed 최종" src="https://github.com/user-attachments/assets/e1ad1697-d933-4a95-86fe-baf2a6247318">|<img width="824" alt="git issue 최종" src="https://github.com/user-attachments/assets/ee4b35c9-ee32-4fb9-b41b-6fd2363f00c8">|
 
 
 ## d. 기타
 ### 성능측정도구
 - PageSpeed : https://pagespeed.web.dev/
+- Lighthouse
+
+### 궁금한 점
+- 성능이 측정할 때마다 들쭉날쭉한 경우가 많아서 대략적인 추이로 확인하는 것이 가장 적절할 것 같다는 생각이 들었는데, 혹시 이런 변동성을 잡을 수 있는 방법이 있을까요?
